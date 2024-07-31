@@ -2,11 +2,47 @@
 @tailwind components;
 @tailwind utilities;
   
-
+/* ========================================== TAILWIND STYLES */
+@layer base {
+    /* Remove scrollbar */
+    .remove-scrollbar::-webkit-scrollbar {
+      width: 0px;
+      height: 0px;
+      border-radius: 0px;
+    }
+  
+    .remove-scrollbar::-webkit-scrollbar-track {
+      background: transparent;
+    }
+  
+    .remove-scrollbar::-webkit-scrollbar-thumb {
+      background: transparent;
+      border-radius: 0px;
+    }
+  
+    .remove-scrollbar::-webkit-scrollbar-thumb:hover {
+      /* background: #1e2238; */
+      background: transparent;
+    }
+  }
 
 /* SHADCN-OVERRIDES */
 
 
-.shad-primary-btn{
+/* .shad-primary-btn{
     @apply bg-[#8C45FF] text-white !important
+} */
+
+/* styles/globals.css */
+.shad-primary-btn {
+  background-color: rgba(140, 69, 255, 0.4) !important; /* #8C45FF with 40% opacity */
+  border: 1px solid rgba(255, 255, 255, 0.15) !important; /* #FFFFFF with 15% opacity */
+  color: white !important; /* Text color */
+  font-size: 1rem !important; /* Adjust font size as needed */
+  font-weight: 200 !important; /* Adjust font weight as needed */
+}
+.thin-border {
+    border-width: 1px;
+    border-color: rgba(221, 214, 214, 0.5); /* 50% opacity */
+    padding: 1rem 3rem;
 }
