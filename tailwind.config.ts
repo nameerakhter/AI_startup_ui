@@ -18,6 +18,9 @@ const config = {
       },
     },
     extend: {
+      backgroundImage:{
+        'custom-background': "url('/assets/Images/group.png')",
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
