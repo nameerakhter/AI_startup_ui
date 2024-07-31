@@ -35,14 +35,21 @@
 
 /* styles/globals.css */
 .shad-primary-btn {
-  background-color: rgba(140, 69, 255, 0.4) !important; /* #8C45FF with 40% opacity */
-  border: 1px solid rgba(255, 255, 255, 0.15) !important; /* #FFFFFF with 15% opacity */
-  color: white !important; /* Text color */
-  font-size: 1rem !important; /* Adjust font size as needed */
-  font-weight: 200 !important; /* Adjust font weight as needed */
+  background-color: rgba(140, 69, 255, 0.6) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important; 
+  color: white !important;
+  font-size: 1rem !important;
+  font-weight: 200 !important;
 }
 .thin-border {
     border-width: 1px;
     border-color: rgba(221, 214, 214, 0.5); /* 50% opacity */
-    padding: 1rem 3rem;
+    padding: 0.5rem 2.5rem;
 }
+.thin-border2 {
+    border-width: 1.25px;
+    border-color: rgba(221, 214, 214, 0.2); /* 50% opacity */
+    padding: 0.5rem 1rem;
+}
+
+/* ========================================== TAILWIND STYLES */

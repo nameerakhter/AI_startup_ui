@@ -21,6 +21,11 @@ const config = {
       backgroundImage:{
         'custom-background': "url('/assets/Images/group.png')",
       },
+      colors:{
+        'purple': {
+          light: '#9855ff'
+        },
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
