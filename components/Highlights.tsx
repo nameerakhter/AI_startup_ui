@@ -9,32 +9,32 @@ const Highlights = () => {
         <h1>search engine optimization intutive</h1>
         <h1>and effective for all skill levels.</h1>
       </div>
-      <div className="flex flex-col items-center justify-between">
-      <div className="flex flex-row items-center gap-5 max-w-[1100px]">
+      <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-row items-start gap-5 max-w-[1100px] ">
 
-        <CustomCard
-          src="/assets/Images/visual.png"
-          alt="Visual"
-          height={400}
-          width={206}
-          h3="SEO goal setting"
-          p1="Helps you set and achieve SEO"
-          p2="goals with guided assistance."
-        />
+          <CustomCard
+            src="/assets/Images/visual.png"
+            alt="Visual"
+            height={400}
+            width={350}
+            h3="SEO goal setting"
+            p1="Helps you set and achieve SEO"
+            p2="goals with guided assistance."
+          />
 
 
-        <CustomCard
-          src="/assets/Images/app-widget-trim.png"
-          alt="Visual"
-          height={400}
-          width={700}
-          h3="SEO goal setting"
-          p1="Helps you set and achieve SEO"
-          p2="goals with guided assistance."
-        />
+          <CustomCard
+            src="/assets/Images/app-widget-trim.png"
+            alt="Visual"
+            height={400}
+            width={700}
+            h3="SEO goal setting"
+            p1="Helps you set and achieve SEO"
+            p2="goals with guided assistance."
+          />
 
-        
-      </div>
+          
+        </div>
       </div>
       
     </div>
