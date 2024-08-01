@@ -3,7 +3,7 @@ import BrandCard from "./elements/BrandCard";
 
 const Partners = () => {
   return (
-    <div className="flex flex-col gap-8 items-center min-h-screen">
+    <div className="flex flex-col gap-8 items-center">
         <div className="gap-4 opacity-55">
             <p>Trusted by the worlds most innovative teams</p>
         </div>

@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import Highlights from "@/components/Highlights";
 import Navbar from "@/components/Navbar";
 import Partners from "@/components/Partners";
 import { Button } from "@/components/ui/button";
@@ -10,6 +11,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Partners />
+      <Highlights />
     </div>
   );
 }
