@@ -8,7 +8,7 @@ import { motion } from "framer-motion"
 
 const Hero = () => {
   return (
-    <div className="bg-custom-background bg-cover min-h-screen shadow-lg shadow-red-800">
+    <div className="bg-custom-background bg-cover min-h-screen shadow-lg">
       <section className="remove-scrollbar container mt-[2rem]">
         <div className="sub-container flex flex-col py-10 items-center">
           <Badge />

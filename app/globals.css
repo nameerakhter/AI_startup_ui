@@ -51,5 +51,10 @@
     border-color: rgba(221, 214, 214, 0.2); /* 50% opacity */
     padding: 0.5rem 1rem;
 }
+.partner-card {
+    border-width: 2px;
+    border-color: rgba(221, 214, 214, 0.2); /* 50% opacity */
+    padding: 2rem 2rem;
+}
 
 /* ========================================== TAILWIND STYLES */
