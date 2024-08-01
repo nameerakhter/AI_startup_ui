@@ -1,9 +1,8 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import Badge from "./elements/Badge";
 import { Button } from "./ui/button";
 import Image from "next/image";
-import { motion } from "framer-motion";
 import {
   Carousel,
   CarouselContent,
@@ -12,8 +11,26 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Card, CardContent } from "./ui/card";
+import {
+  animate,
+  motion,
+  useMotionTemplate,
+  useMotionValue,
+} from "framer-motion";
+
+const colors = ["#3b1a60", "#6e36c9"];
 
 const Hero = () => {
+  const color = useMotionValue(colors[0]);
+  const background = useMotionTemplate`radial-gradient(100% 100% at 0% 100%, #331354 30%, ${color})`;
+  useEffect(() => {
+    animate(color, colors, {
+      ease: "easeInOut",
+      duration: 2,
+      repeat: Infinity,
+      repeatType: "mirror",
+    });
+  }, [color]);
   return (
     <div className="bg-custom-background bg-cover min-h-screen shadow-lg">
       <section className="remove-scrollbar container mt-[2rem]">
@@ -34,40 +51,22 @@ const Hero = () => {
         <div className="relative w-full flex flex-col items-center">
           {/* Caraousel */}
           <Carousel className="">
-
             <CarouselContent className="-ml-4">
-            <CarouselPrevious />
-            <CarouselNext />
-              {/* <CarouselItem className="pl-4">
-                <Image
-                  src="/assets/Images/app-widget-1.png"
-                  alt="app-widget"
-                  height={794}
-                  width={1098}
-                />
-              </CarouselItem> */}
               <CarouselItem className="pl-4 w-[1100px]">
-              <div style={{ borderRadius: '50px', overflow: 'hidden' }}>
-            <video
-              src="/assets/videos/video.mp4"
-              autoPlay
-              muted
-              loop
-              style={{ width: '100%', height: 'auto' }} // Ensure the video fits within the carousel item
-            ></video>
-          </div>
+                
+                <div style={{ borderRadius: "50px", overflow: "hidden" }}>
+                  <video
+                    src="/assets/videos/video.mp4"
+                    autoPlay
+                    muted
+                    loop
+                    style={{ width: "100%", height: "auto" }}
+                    className="" 
+                  ></video>
+                </div>
               </CarouselItem>
-              
             </CarouselContent>
-            
           </Carousel>
-
-          {/* <Image
-            src="/assets/Images/app-widget-1.png"
-            alt="app-widget"
-            height={794}
-            width={1098}
-          /> */}
           <div className="w-full h-[400px] absolute bottom-0 bg-gradient-to-t from-black to-transparent"></div>
         </div>
       </div>
