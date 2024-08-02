@@ -26,6 +26,7 @@ const config = {
         'purple': {
           light: '#9855ff',
           '800': '#6B21A8',
+          'dark':'#180d2d'
         },
       },
       keyframes: {
