@@ -1,5 +1,6 @@
 import Clients from "@/components/Clients";
 import Features from "@/components/Features";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Highlights from "@/components/Highlights";
 import Navbar from "@/components/Navbar";
@@ -15,6 +16,7 @@ export default function Home() {
       <Highlights />
       <Features />
       <Clients />
+      <Footer />
     </div>
   );
 }
