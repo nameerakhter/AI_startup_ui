@@ -20,6 +20,7 @@ const config = {
     extend: {
       backgroundImage:{
         'custom-background': "url('/assets/Images/group.png')",
+        'background-blur': "url('/assets/Images/blur.png')",
         'gradient-to-t': 'linear-gradient(to top, var(--tw-gradient-stops))',
       },
       colors:{

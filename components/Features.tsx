@@ -12,12 +12,12 @@ import { IoDocuments } from "react-icons/io5";
 
 const Features = () => {
   return (
-    <div className="relative bg-gradient-to-t from-purple-dark to-transparent p-4 min-h-screen top-2">
+    <div className="relative bg-gradient-to-t from-purple-dark to-transparent p-[2rem] min-h-screen top-2">
       <div className="absolute flex flex-col ">
         <h1 className="px-[5rem] text-[5rem] capitalize">Elevate your</h1>
         <h1 className="px-[5rem] text-[5rem] capitalize">SEO efforts.</h1>
       </div>
-      <div className="absolute  w-[1600px] bottom-[5rem] flex flex-row items-center">
+      <div className="absolute w-[1600px] bottom-[5rem] flex flex-row items-center justify-evenly">
         <section className="w-1/3 h-[600px] flex flex-col justify-evenly px-[4rem]">
           <FeatureDescription
             icon={<IoSpeedometerSharp />}
