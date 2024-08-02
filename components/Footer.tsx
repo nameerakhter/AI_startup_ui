@@ -16,11 +16,9 @@ const Footer = () => {
             className="absolute"
           />
         </div>
-      </div>
-      <div className="flex items-center justify-center">
-        <h1 className="text-3xl py-[2rem]">Get in Touch</h1>
-      </div>
-      <div className="h-[700px] px-[2rem] flex items-center gap-2 py-[4rem] ">
+        <div className="flex items-center justify-center gap-[23rem]">
+          <h1 className="text-3xl py-[2rem]">Get in Touch</h1>
+          <div className="h-[700px] px-[2rem] flex items-center gap-[7rem] py-[4rem] ">
         <section className="w-1/4 h-[400px]">
           <div className="flex flex-col h-full items-center justify-around">
             <h1 className="text-3xl">Product</h1>
@@ -54,6 +52,10 @@ const Footer = () => {
           </div>
         </section>
       </div>
+        </div>
+      </div>
+
+      
     </div>
   );
 };
