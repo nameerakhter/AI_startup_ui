@@ -3,6 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
+    // TODO: Make this responsive
     <div>
       <div className="border opacity-15"></div>
       <div className="p-[1rem]">
