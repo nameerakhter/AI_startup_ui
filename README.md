@@ -1,4 +1,4 @@
-# Startup AI UI
+# Startup AI UI.
 
 
 https://github.com/user-attachments/assets/ae32bc2f-cf4c-4daf-9000-867505d9ff50
