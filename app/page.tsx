@@ -13,7 +13,7 @@ export default function Home() {
     <div className="bg-black">
       <Navbar />
       <Hero />
-      {/* <Partners /> */}
+      <Partners />
       {/* <Highlights /> */}
       {/* <Features /> */}
       {/* <Clients /> */}
