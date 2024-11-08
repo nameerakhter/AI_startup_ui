@@ -13,7 +13,7 @@ import { IoDocuments } from "react-icons/io5";
 const Features = () => {
   return (
     <>
-    <div className="bg-gradient-to-t from-purple-dark to-transparent p-4 md:p-[2rem] min-h-screen mt-[5rem] md:mt-[10rem]">
+    <div className="bg-gradient-to-t from-purple-dark to-transparent p-4 md:p-[2rem] mt-[5rem] md:mt-[10rem]">
       <div className="flex flex-col space-y-1 md:-space-y-2 mb-[4rem] md:mb-[8rem] max-w-[1100px] mx-auto px-4 md:px-8">
         <h1 className="text-3xl md:text-5xl lg:text-7xl capitalize text-center md:text-left">Elevate your</h1>
         <h1 className="text-3xl md:text-5xl lg:text-7xl capitalize text-center md:text-left">SEO efforts.</h1>
