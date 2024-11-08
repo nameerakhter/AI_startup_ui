@@ -80,7 +80,7 @@ const Hero = () => {
       </section>
       <div className="flex flex-col items-center justify-center">
         <div className="relative w-full flex flex-col items-center">
-          <Carousel className="w-full max-w-[1920px]">
+          <Carousel className="w-full md:max-w-[1420px]">
             <CarouselContent className="-ml-4">
               <CarouselItem className="pl-4 w-full">
                 <div style={{ borderRadius: "25px", overflow: "hidden" }} className="md:rounded-[35px] lg:rounded-[50px]">
