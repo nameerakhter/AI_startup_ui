@@ -70,7 +70,7 @@ const Hero = () => {
           <div className="flex flex-col items-center justify-center py-[1.5rem] md:py-[2rem] gap-2 md:gap-3">
             <h1 className="text-3xl md:text-5xl lg:text-7xl text-center">Boost your</h1>
             <h1 className="text-3xl md:text-5xl lg:text-7xl text-center">rankings with AI.</h1>
-            <p className="text-sm md:text-base text-center px-2 md:px-0">Elevate your site's visibility effortlessly with AI, where</p>
+            <p className="text-sm md:text-base text-center px-2 md:px-0">Elevate your site&apos;s visibility effortlessly with AI, where</p>
             <p className="text-sm md:text-base text-center px-2 md:px-0">smart technology meets user-friendly SEO tools.</p>
           </div>
           <motion.div whileHover={{ scale: 1.1 }} transition={{ delay: 0.1 }}>
@@ -80,8 +80,7 @@ const Hero = () => {
       </section>
       <div className="flex flex-col items-center justify-center">
         <div className="relative w-full flex flex-col items-center">
-          {/* Caraousel */}
-          <Carousel className="w-full max-w-[1100px]">
+          <Carousel className="w-full max-w-[1920px]">
             <CarouselContent className="-ml-4">
               <CarouselItem className="pl-4 w-full">
                 <div style={{ borderRadius: "25px", overflow: "hidden" }} className="md:rounded-[35px] lg:rounded-[50px]">
@@ -97,7 +96,7 @@ const Hero = () => {
               </CarouselItem>
             </CarouselContent>
           </Carousel>
-          <div className="w-full h-[200px] md:h-[300px] lg:h-[400px] absolute bottom-0 bg-gradient-to-t from-black to-transparent"></div>
+          <div className="w-full h-[100px] md:h-[150px] lg:h-[200px] absolute bottom-0 bg-gradient-to-t from-black to-transparent"></div>
         </div>
       </div>
     </div>

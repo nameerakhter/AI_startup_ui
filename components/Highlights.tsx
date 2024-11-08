@@ -3,7 +3,7 @@ import CustomCard from "./CustomCard";
 
 const Highlights = () => {
   return (
-    <div className="min-h-screen">
+    <div className="">
       <div className="flex flex-col items-center mt-4 md:mt-[2rem] p-4 md:p-[5rem]">
         <h1 className="text-2xl md:text-4xl lg:text-5xl font-light text-center max-w-[900px] tracking-tighter">
           <span className="text-3xl md:text-5xl lg:text-6xl font-normal">Harness the power of AI</span>, <br/>
