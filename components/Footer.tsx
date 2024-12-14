@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex justify-center items-center p-2">
           <div className="bg-purple-800 h-[60px] w-[60px] relative blur-lg"></div>
           <Image
-            src="/assets/icons/Logo.png"
+            src="/assets/Images/logo.png"
             alt="logo"
             width={50}
             height={50}

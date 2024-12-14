@@ -78,7 +78,7 @@ export default  function ResponsiveNavbar ()  {
     <div className={`flex items-center justify-center ${isMobile ? 'flex-row' : 'flex-row'}`}>
       <div className='flex justify-center flex-row items-center p-2'>
         <div className='bg-purple-800 h-[45px] w-[45px] relative blur-lg'></div>
-        <Image src='/assets/icons/Logo.png' alt='logo' width={38} height={38} className='absolute' unoptimized/>
+        <Image src='/assets/Images/logo.png' alt='logo' width={38} height={38} className='absolute' unoptimized/>
       </div>
       {isMobile ? (
         <HamburgerMenu navItems={navItems} />
