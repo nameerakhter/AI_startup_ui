@@ -14,7 +14,7 @@ const Highlights = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3 w-full max-w-[1100px]">
           <div className="md:col-span-1 md:pr-2">
             <CustomCard
-              src="/assets/Images/visual.png"
+              src="/assets/Images/visual-element.png"
               alt="Visual"
               height={400}
               width={400}
